@@ -16,7 +16,7 @@ module.exports = {
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
-	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
+	mongoDB: "mongodb+srv://Bot:poepje000@cluster0.ybvrm.mongodb.net/myFirstDatabase?authSource=admin&replicaSet=atlas-w06wc1-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true", // The URl of the mongodb database
 	prefix: "?", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
