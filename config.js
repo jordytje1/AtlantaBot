@@ -8,16 +8,16 @@ module.exports = {
 	},
 	/* Dashboard configuration */
 	dashboard: {
-		enabled: false, // whether the dashboard is enabled or not
-		secret: "XXXXXXXXXXX", // Your discord client secret
+		enabled: true, // whether the dashboard is enabled or not
+		secret: "DZB9rUcsdRUR0tiohhfqvOCbABB9dNDR", // Your discord client secret
 		baseURL: "https://dashboard.atlanta-bot.fr", // The base URl of the dashboard
-		logs: "XXXXXXXXXXX", // The channel ID of logs
+		logs: "823169018042122260", // The channel ID of logs
 		port: 8080, // Dashboard port
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
 	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
-	prefix: "*", // The default prefix for the bot
+	prefix: "?", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
 		color: "#0091fc", // The default color for the embeds
@@ -25,8 +25,8 @@ module.exports = {
 	},
 	/* Bot's owner informations */
 	owner: {
-		id: "XXXXXXXXXXX", // The ID of the bot's owner
-		name: "Androz#2091" // And the name of the bot's owner
+		id: "376384142599782410", // The ID of the bot's owner
+		name: "𝕯𝖗𝖆𝖌𝖔𝖓𝖇𝖔𝖞#6241" // And the name of the bot's owner
 	},
 	/* DBL votes webhook (optional) */
 	votes: {
