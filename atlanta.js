@@ -47,7 +47,8 @@ const init = async () => {
 		delete require.cache[require.resolve(`./events/${file}`)];
 	});
     
-	client.login(client.config.token); // Log in to the discord api
+	
+       client.login(process.env.BOT_TOKEN); // Log in to the discord api
 
 	// connect to mongoose database
 	mongoose.connect(client.config.mongoDB, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
